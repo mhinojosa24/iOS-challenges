@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  FourthViewController.swift
 //  ConstraintsChallenge
 //
-//  Created by Maximo Hinojosa on 1/30/19.
+//  Created by Maximo Hinojosa on 1/31/19.
 //  Copyright © 2019 Maximo Hinojosa. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class FourthViewController: UIViewController {
+    
     
     let view1: UIView = {
         let view = UIView()
@@ -37,13 +37,9 @@ class ViewController: UIViewController {
         
         addViews()
         addConstraints()
-        
-        navigationItem.title = "First View Controller"
+        navigationItem.title = "Fourth View Controller"
 
-        navigationController?.navigationBar.isHidden = false
-        navigationController?.navigationBar.isTranslucent = false
     }
-
     
     func addViews() {
         view.addSubview(view1)
@@ -53,11 +49,11 @@ class ViewController: UIViewController {
     
     
     func addConstraints() {
-
-        view1.setAnchor(top: view.topAnchor, left: view.safeAreaLayoutGuide.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: -1 * (UIScreen.main.bounds.height / 1.4), paddingRight: 0)
+        
+        view1.setAnchor(top: view.topAnchor, left: view.safeAreaLayoutGuide.leftAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: -1 * (UIScreen.main.bounds.height / 2.1), paddingRight: 0)
         
         view2.setAnchor(top: view1.bottomAnchor, left: view.safeAreaLayoutGuide.leftAnchor, bottom: view.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)
-
+        
         nextButton.setAnchor(top: nil, left: nil, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: -20, paddingRight: -40)
         nextButton.constraintView(width: 150, height: 50)
         nextButton.dropShadow(color: .black, shadowRadius: 5, opacity: 0.5)
@@ -65,9 +61,8 @@ class ViewController: UIViewController {
     
     @objc func nextButtonPressed(_ sender: UIButton){
         
-        let destinationVC = SecondViewController()
+        let destinationVC = ThirdViewController()
         navigationController?.pushViewController(destinationVC, animated: true)
     }
     
 }
-

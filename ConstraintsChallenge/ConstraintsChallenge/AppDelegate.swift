@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         let navigationController = UINavigationController()
-        let mainController = ViewController()
+        let mainController = ThirdViewController()
         navigationController.setViewControllers([mainController], animated: false)
         
         window!.rootViewController = navigationController
