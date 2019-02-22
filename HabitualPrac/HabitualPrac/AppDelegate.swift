@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ConstraintsChallenge
+//  HabitualPrac
 //
-//  Created by Maximo Hinojosa on 1/30/19.
+//  Created by Maximo Hinojosa on 2/16/19.
 //  Copyright © 2019 Maximo Hinojosa. All rights reserved.
 //
 
@@ -15,16 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let navigationController = UINavigationController()
-        let mainController = ViewController()
-        navigationController.setViewControllers([mainController], animated: false)
-        
-        window!.rootViewController = navigationController
-        window!.makeKeyAndVisible()
-        
+        // Override point for customization after application launch.
         return true
     }
 

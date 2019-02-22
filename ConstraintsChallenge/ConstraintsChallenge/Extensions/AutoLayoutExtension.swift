@@ -32,7 +32,7 @@ extension UIView{
                        height: height)
     }
     
-    func setAnchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat = 0, height: CGFloat =  0){
+    func setAnchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat?, width: CGFloat = 0, height: CGFloat =  0){
         
         self.translatesAutoresizingMaskIntoConstraints = false
         
@@ -45,8 +45,8 @@ extension UIView{
         if let bottom = bottom {
             self.bottomAnchor.constraint(equalTo: bottom, constant: paddingBottom).isActive = true
         }
-        if let right = right {
-            self.rightAnchor.constraint(equalTo: right, constant: paddingRight).isActive = true
+        if let right = right, let padding = paddingRight {
+            self.rightAnchor.constraint(equalTo: right, constant: padding).isActive = true
         }
         if width != 0{
             self.widthAnchor.constraint(equalToConstant: width).isActive = true

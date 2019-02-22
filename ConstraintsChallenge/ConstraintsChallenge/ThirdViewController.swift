@@ -56,14 +56,17 @@ class ThirdViewController: UIViewController {
         //view1
         let topView1 = view1.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40)
         let leftView1 = view1.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 40)
-        let rightView1 = view1.rightAnchor.constraint(equalTo: view.leftAnchor, constant: 160)
+        
         let bottomView1 = view1.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -4.5 * (UIScreen.main.bounds.width * 0.33))
+        let width = view1.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.30)
         
         //view2
         let topView2 = view2.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40)
-        let leftView2 = view2.leftAnchor.constraint(equalTo: view1.rightAnchor, constant: -140)
-        let rightView2 = view2.rightAnchor.constraint(equalTo: view1.rightAnchor, constant: -160)
+        
+        let rightView2 = view2.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40)
         let bottomView2 = view2.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -4.5 * (UIScreen.main.bounds.width * 0.33))
+        
+        let widthView2 = view2.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.30)
         
         //nextButton
         let btnBottom = nextButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20)
@@ -71,12 +74,12 @@ class ThirdViewController: UIViewController {
         
         NSLayoutConstraint.activate([topView1,
                                      leftView1,
-                                     rightView1,
+                                     width,
                                      bottomView1,
                                      topView2,
-                                     leftView2,
                                      rightView2,
                                      bottomView2,
+                                     widthView2,
                                      btnBottom,
                                      btnRight,
                                      ])
