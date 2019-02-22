@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70E855F21CEBAB90083D43D /* CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70E855E21CEBAB90083D43D /* CollectionViewExtension.swift */; };
+		C70E856121CEBF200083D43D /* HabitsTableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70E856021CEBF200083D43D /* HabitsTableViewControllerExtension.swift */; };
+		C745199A21C630A700C79450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C745199921C630A700C79450 /* AppDelegate.swift */; };
+		C74519A121C630A800C79450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74519A021C630A800C79450 /* Assets.xcassets */; };
+		C74519A421C630A800C79450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74519A221C630A800C79450 /* LaunchScreen.storyboard */; };
+		C74519AD21C6312100C79450 /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519AB21C6312100C79450 /* HabitsTableViewController.swift */; };
+		C74519AE21C6312100C79450 /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74519AC21C6312100C79450 /* HabitsTableViewController.xib */; };
+		C74519B121C6318600C79450 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B021C6318600C79450 /* UIViewControllerExtensions.swift */; };
+		C74519B321C6488B00C79450 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B221C6488B00C79450 /* Habit.swift */; };
+		C74519B521C6506000C79450 /* DateExtenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B421C6506000C79450 /* DateExtenison.swift */; };
+		C7796D9421D6D47A0042EC27 /* AddHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7796D9221D6D47A0042EC27 /* AddHabitViewController.swift */; };
+		C7796D9521D6D47A0042EC27 /* AddHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7796D9321D6D47A0042EC27 /* AddHabitViewController.xib */; };
+		C7796D9821D6F9CB0042EC27 /* HabitImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7796D9621D6F9CB0042EC27 /* HabitImageCollectionViewCell.swift */; };
+		C7796D9921D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7796D9721D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib */; };
+		C7796DA121D70B7C0042EC27 /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */; };
+		C7796DA221D70B7C0042EC27 /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */; };
+		C7AADF1C22207F11001E513F /* AlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AADF1B22207F11001E513F /* AlertControllerExtension.swift */; };
+		C7D8A4A121C6D05000996E93 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8A49F21C6D05000996E93 /* HabitTableViewCell.swift */; };
+		C7D8A4A221C6D05000996E93 /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */; };
+		C7D8A4A421C6E66A00996E93 /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8A4A321C6E66A00996E93 /* PersistenceLayer.swift */; };
+		C7FC86FE21C9900B00F9F089 /* ConfirmHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC86FC21C9900B00F9F089 /* ConfirmHabitViewController.swift */; };
+		C7FC86FF21C9900B00F9F089 /* ConfirmHabitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7FC86FD21C9900B00F9F089 /* ConfirmHabitViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C70E855E21CEBAB90083D43D /* CollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtension.swift; sourceTree = "<group>"; };
+		C70E856021CEBF200083D43D /* HabitsTableViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewControllerExtension.swift; sourceTree = "<group>"; };
+		C745199621C630A700C79450 /* Habitual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C745199921C630A700C79450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C74519A021C630A800C79450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74519A321C630A800C79450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74519A521C630A800C79450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74519AB21C6312100C79450 /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
+		C74519AC21C6312100C79450 /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
+		C74519B021C6318600C79450 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		C74519B221C6488B00C79450 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		C74519B421C6506000C79450 /* DateExtenison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtenison.swift; sourceTree = "<group>"; };
+		C7796D9221D6D47A0042EC27 /* AddHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitViewController.swift; sourceTree = "<group>"; };
+		C7796D9321D6D47A0042EC27 /* AddHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddHabitViewController.xib; sourceTree = "<group>"; };
+		C7796D9621D6F9CB0042EC27 /* HabitImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7796D9721D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
+		C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
+		C7AADF1B22207F11001E513F /* AlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerExtension.swift; sourceTree = "<group>"; };
+		C7D8A49F21C6D05000996E93 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
+		C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		C7D8A4A321C6E66A00996E93 /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
+		C7FC86FC21C9900B00F9F089 /* ConfirmHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmHabitViewController.swift; sourceTree = "<group>"; };
+		C7FC86FD21C9900B00F9F089 /* ConfirmHabitViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmHabitViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C745199321C630A700C79450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70E855C21CEB0380083D43D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7D8A4A321C6E66A00996E93 /* PersistenceLayer.swift */,
+				C74519AB21C6312100C79450 /* HabitsTableViewController.swift */,
+				C7D8A49F21C6D05000996E93 /* HabitTableViewCell.swift */,
+				C7796D9221D6D47A0042EC27 /* AddHabitViewController.swift */,
+				C7796D9621D6F9CB0042EC27 /* HabitImageCollectionViewCell.swift */,
+				C7FC86FC21C9900B00F9F089 /* ConfirmHabitViewController.swift */,
+				C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */,
+			);
+			name = Controller;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C70E855D21CEB0A60083D43D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C74519B021C6318600C79450 /* UIViewControllerExtensions.swift */,
+				C70E855E21CEBAB90083D43D /* CollectionViewExtension.swift */,
+				C70E856021CEBF200083D43D /* HabitsTableViewControllerExtension.swift */,
+				C74519B421C6506000C79450 /* DateExtenison.swift */,
+				C7AADF1B22207F11001E513F /* AlertControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C745198D21C630A700C79450 = {
+			isa = PBXGroup;
+			children = (
+				C745199821C630A700C79450 /* Habitual */,
+				C745199721C630A700C79450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C745199721C630A700C79450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C745199621C630A700C79450 /* Habitual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C745199821C630A700C79450 /* Habitual */ = {
+			isa = PBXGroup;
+			children = (
+				C745199921C630A700C79450 /* AppDelegate.swift */,
+				C70E855D21CEB0A60083D43D /* Extensions */,
+				C7796D9A21D703940042EC27 /* Model */,
+				C74519AF21C6312C00C79450 /* View */,
+				C70E855C21CEB0380083D43D /* Controller */,
+				C74519A021C630A800C79450 /* Assets.xcassets */,
+				C74519A221C630A800C79450 /* LaunchScreen.storyboard */,
+				C74519A521C630A800C79450 /* Info.plist */,
+			);
+			path = Habitual;
+			sourceTree = "<group>";
+		};
+		C74519AF21C6312C00C79450 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C74519AC21C6312100C79450 /* HabitsTableViewController.xib */,
+				C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */,
+				C7796D9321D6D47A0042EC27 /* AddHabitViewController.xib */,
+				C7796D9721D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib */,
+				C7FC86FD21C9900B00F9F089 /* ConfirmHabitViewController.xib */,
+				C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */,
+			);
+			name = View;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7796D9A21D703940042EC27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C74519B221C6488B00C79450 /* Habit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C745199521C630A700C79450 /* Habitual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74519A821C630A800C79450 /* Build configuration list for PBXNativeTarget "Habitual" */;
+			buildPhases = (
+				C745199221C630A700C79450 /* Sources */,
+				C745199321C630A700C79450 /* Frameworks */,
+				C745199421C630A700C79450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Habitual;
+			productName = Habitual;
+			productReference = C745199621C630A700C79450 /* Habitual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C745198E21C630A700C79450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Maximo Hinojosa";
+				TargetAttributes = {
+					C745199521C630A700C79450 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C745199121C630A700C79450 /* Build configuration list for PBXProject "Habitual" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C745198D21C630A700C79450;
+			productRefGroup = C745199721C630A700C79450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C745199521C630A700C79450 /* Habitual */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C745199421C630A700C79450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74519A421C630A800C79450 /* LaunchScreen.storyboard in Resources */,
+				C7FC86FF21C9900B00F9F089 /* ConfirmHabitViewController.xib in Resources */,
+				C74519AE21C6312100C79450 /* HabitsTableViewController.xib in Resources */,
+				C7796DA221D70B7C0042EC27 /* HabitDetailedViewController.xib in Resources */,
+				C7D8A4A221C6D05000996E93 /* HabitTableViewCell.xib in Resources */,
+				C74519A121C630A800C79450 /* Assets.xcassets in Resources */,
+				C7796D9921D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib in Resources */,
+				C7796D9521D6D47A0042EC27 /* AddHabitViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C745199221C630A700C79450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70E855F21CEBAB90083D43D /* CollectionViewExtension.swift in Sources */,
+				C7796D9421D6D47A0042EC27 /* AddHabitViewController.swift in Sources */,
+				C74519B121C6318600C79450 /* UIViewControllerExtensions.swift in Sources */,
+				C74519B521C6506000C79450 /* DateExtenison.swift in Sources */,
+				C74519AD21C6312100C79450 /* HabitsTableViewController.swift in Sources */,
+				C7D8A4A421C6E66A00996E93 /* PersistenceLayer.swift in Sources */,
+				C70E856121CEBF200083D43D /* HabitsTableViewControllerExtension.swift in Sources */,
+				C7796D9821D6F9CB0042EC27 /* HabitImageCollectionViewCell.swift in Sources */,
+				C74519B321C6488B00C79450 /* Habit.swift in Sources */,
+				C7FC86FE21C9900B00F9F089 /* ConfirmHabitViewController.swift in Sources */,
+				C7AADF1C22207F11001E513F /* AlertControllerExtension.swift in Sources */,
+				C7D8A4A121C6D05000996E93 /* HabitTableViewCell.swift in Sources */,
+				C7796DA121D70B7C0042EC27 /* HabitDetailedViewController.swift in Sources */,
+				C745199A21C630A700C79450 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C74519A221C630A800C79450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74519A321C630A800C79450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74519A621C630A800C79450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C74519A721C630A800C79450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74519A921C630A800C79450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D25YZNJAC;
+				INFOPLIST_FILE = Habitual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maximo-Hinojosa.Habit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74519AA21C630A800C79450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D25YZNJAC;
+				INFOPLIST_FILE = Habitual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maximo-Hinojosa.Habit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C745199121C630A700C79450 /* Build configuration list for PBXProject "Habitual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74519A621C630A800C79450 /* Debug */,
+				C74519A721C630A800C79450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74519A821C630A800C79450 /* Build configuration list for PBXNativeTarget "Habitual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74519A921C630A800C79450 /* Debug */,
+				C74519AA21C630A800C79450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C745198E21C630A700C79450 /* Project object */;
+}
