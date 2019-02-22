@@ -13,7 +13,6 @@
 		C74519A121C630A800C79450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74519A021C630A800C79450 /* Assets.xcassets */; };
 		C74519A421C630A800C79450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74519A221C630A800C79450 /* LaunchScreen.storyboard */; };
 		C74519AD21C6312100C79450 /* HabitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519AB21C6312100C79450 /* HabitsTableViewController.swift */; };
-		C74519AE21C6312100C79450 /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74519AC21C6312100C79450 /* HabitsTableViewController.xib */; };
 		C74519B121C6318600C79450 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B021C6318600C79450 /* UIViewControllerExtensions.swift */; };
 		C74519B321C6488B00C79450 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B221C6488B00C79450 /* Habit.swift */; };
 		C74519B521C6506000C79450 /* DateExtenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74519B421C6506000C79450 /* DateExtenison.swift */; };
@@ -24,6 +23,7 @@
 		C7796DA121D70B7C0042EC27 /* HabitDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */; };
 		C7796DA221D70B7C0042EC27 /* HabitDetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */; };
 		C7AADF1C22207F11001E513F /* AlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AADF1B22207F11001E513F /* AlertControllerExtension.swift */; };
+		C7AADF1E2220BABD001E513F /* HabitsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7AADF1D2220BABD001E513F /* HabitsTableViewController.xib */; };
 		C7D8A4A121C6D05000996E93 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8A49F21C6D05000996E93 /* HabitTableViewCell.swift */; };
 		C7D8A4A221C6D05000996E93 /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */; };
 		C7D8A4A421C6E66A00996E93 /* PersistenceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8A4A321C6E66A00996E93 /* PersistenceLayer.swift */; };
@@ -40,7 +40,6 @@
 		C74519A321C630A800C79450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C74519A521C630A800C79450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C74519AB21C6312100C79450 /* HabitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsTableViewController.swift; sourceTree = "<group>"; };
-		C74519AC21C6312100C79450 /* HabitsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitsTableViewController.xib; sourceTree = "<group>"; };
 		C74519B021C6318600C79450 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		C74519B221C6488B00C79450 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		C74519B421C6506000C79450 /* DateExtenison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtenison.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailedViewController.swift; sourceTree = "<group>"; };
 		C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitDetailedViewController.xib; sourceTree = "<group>"; };
 		C7AADF1B22207F11001E513F /* AlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerExtension.swift; sourceTree = "<group>"; };
+		C7AADF1D2220BABD001E513F /* HabitsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HabitsTableViewController.xib; path = Habitual/View/HabitsTableViewController.xib; sourceTree = SOURCE_ROOT; };
 		C7D8A49F21C6D05000996E93 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
 		C7D8A4A321C6E66A00996E93 /* PersistenceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceLayer.swift; sourceTree = "<group>"; };
@@ -80,8 +80,7 @@
 				C7FC86FC21C9900B00F9F089 /* ConfirmHabitViewController.swift */,
 				C7796D9F21D70B7C0042EC27 /* HabitDetailedViewController.swift */,
 			);
-			name = Controller;
-			path = Controllers;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C70E855D21CEB0A60083D43D /* Extensions */ = {
@@ -130,15 +129,14 @@
 		C74519AF21C6312C00C79450 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C74519AC21C6312100C79450 /* HabitsTableViewController.xib */,
+				C7AADF1D2220BABD001E513F /* HabitsTableViewController.xib */,
 				C7D8A4A021C6D05000996E93 /* HabitTableViewCell.xib */,
 				C7796D9321D6D47A0042EC27 /* AddHabitViewController.xib */,
 				C7796D9721D6F9CB0042EC27 /* HabitImageCollectionViewCell.xib */,
 				C7FC86FD21C9900B00F9F089 /* ConfirmHabitViewController.xib */,
 				C7796DA021D70B7C0042EC27 /* HabitDetailedViewController.xib */,
 			);
-			name = View;
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		C7796D9A21D703940042EC27 /* Model */ = {
@@ -207,9 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AADF1E2220BABD001E513F /* HabitsTableViewController.xib in Resources */,
 				C74519A421C630A800C79450 /* LaunchScreen.storyboard in Resources */,
 				C7FC86FF21C9900B00F9F089 /* ConfirmHabitViewController.xib in Resources */,
-				C74519AE21C6312100C79450 /* HabitsTableViewController.xib in Resources */,
 				C7796DA221D70B7C0042EC27 /* HabitDetailedViewController.xib in Resources */,
 				C7D8A4A221C6D05000996E93 /* HabitTableViewCell.xib in Resources */,
 				C74519A121C630A800C79450 /* Assets.xcassets in Resources */,
